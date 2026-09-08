@@ -572,5 +572,4 @@ export const stats = {
   totalHours: "315 hours",
   projectsBuilt: "50+ builds",
   requiredHours: 324,
-  hoursRemaining: "8h 42m",
 };
