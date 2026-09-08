@@ -1,7 +1,7 @@
 "use client";
 
-import { GraduationCap, UserCog, Building2, Hourglass } from "lucide-react";
-import { intern, stats } from "@/lib/blog-data";
+import { GraduationCap, UserCog, Building2 } from "lucide-react";
+import { intern } from "@/lib/blog-data";
 
 export function AboutSection() {
   return (
@@ -35,11 +35,6 @@ export function AboutSection() {
             <InfoRow icon={<Building2 className="h-4 w-4" />} label="Company" value={intern.company} />
             <InfoRow icon={<GraduationCap className="h-4 w-4" />} label="School" value={intern.school} />
             <InfoRow icon={<UserCog className="h-4 w-4" />} label="OJT Coordinator" value={intern.coordinator} />
-            <InfoRow
-              icon={<Hourglass className="h-4 w-4" />}
-              label="Hours remaining"
-              value={`${stats.hoursRemaining} / ${intern.requiredHours}h required`}
-            />
           </div>
         </div>
       </div>

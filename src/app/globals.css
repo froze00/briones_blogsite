@@ -23,16 +23,15 @@
 
 :root {
   --radius: 0.625rem;
-  /* Strict 3-color palette: Paper (cream), Ink (espresso), Caramel (amber).
-     All neutrals are tints/shades of Ink for borders & soft text. */
-  --paper: #f6f1e7;
-  --ink: #241d17;
-  --ink-soft: #5a4d40;
-  --caramel: #b5712a;
-  --caramel-soft: #d9a45c;
-  --border: #e2d8c5;
-  --background: #f6f1e7;
-  --foreground: #241d17;
+  /* Strict 3-color palette: baby blue, deep navy, and sky blue. */
+  --paper: #eaf6ff;
+  --ink: #16324f;
+  --ink-soft: #16324f;
+  --caramel: #79c2e8;
+  --caramel-soft: #79c2e8;
+  --border: #79c2e8;
+  --background: #eaf6ff;
+  --foreground: #16324f;
 }
 
 @layer base {
