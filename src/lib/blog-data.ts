@@ -194,8 +194,8 @@ export const posts: JournalPost[] = [
     ],
   },
   {
-    slug: "week-4",
-    week: 4,
+    slug: "week-3",
+    week: 3,
     title: "Styling With Intent",
     theme: "Advanced CSS & Responsive Design",
     dateRange: "July 6 – 11, 2026",
@@ -206,7 +206,7 @@ export const posts: JournalPost[] = [
     highlights: [
       { label: "Focus", value: "Advanced & Responsive CSS" },
       { label: "Projects", value: "20+ hands-on builds" },
-      { label: "Progress", value: "132h 54m remaining of 324h" },
+      { label: "Progress", value: "183h remaining of 324h" },
     ],
     days: [
       {
@@ -271,12 +271,156 @@ export const posts: JournalPost[] = [
       },
     ],
   },
+  {
+    slug: "week-5",
+    week: 5,
+    title: "JavaScript Awakens",
+    theme: "Interactivity & First Deployments",
+    dateRange: "July 13 – 18, 2026",
+    totalHours: "30h 12m",
+    excerpt:
+      "From static pages to live apps. This week I shipped my first projects to the web via GitHub Pages — a Book Collection site and a full-featured Task Manager — then dove into JavaScript accessibility, debugging, and Regular Expressions, closing with a Markdown-to-HTML converter for certification.",
+    tags: ["JavaScript", "LocalStorage", "Accessibility", "RegEx", "GitHub Pages"],
+    highlights: [
+      { label: "Focus", value: "JavaScript & Deployment" },
+      { label: "Projects", value: "Book site · Task Manager · Markdown converter" },
+      { label: "Progress", value: "102h 42m remaining of 324h" },
+    ],
+    days: [
+      {
+        day: "Monday",
+        date: "July 13, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Created and launched a Book Collection Website using HTML, CSS, and JavaScript.",
+          "Uploaded the project to GitHub and successfully hosted it online through GitHub Pages for public access.",
+        ],
+      },
+      {
+        day: "Tuesday",
+        date: "July 14, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Designed the initial layout and structure of a Task Manager web application.",
+          "Set up the project repository and deployed its first working version using GitHub Pages.",
+        ],
+      },
+      {
+        day: "Wednesday",
+        date: "July 15, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Enhanced the Task Manager by adding full functionality — creating, editing, deleting, and marking tasks.",
+          "Implemented features like due dates, priority levels, live search, filtering, and sorting, and used LocalStorage to retain user data.",
+        ],
+      },
+      {
+        day: "Thursday",
+        date: "July 16, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Studied JavaScript accessibility practices, focusing on ARIA attributes like aria-expanded and aria-live.",
+          "Applied these concepts by building small projects including a tab interface, a note-taking tool, and a theme switcher.",
+        ],
+      },
+      {
+        day: "Friday",
+        date: "July 17, 2026",
+        time: "8:00 AM – 6:00 PM",
+        accomplishments: [
+          "Practiced debugging techniques by identifying and fixing issues in a JavaScript activity.",
+          "Explored basic Regular Expressions and created simple applications such as a spam filter and a palindrome checker.",
+        ],
+      },
+      {
+        day: "Saturday",
+        date: "July 18, 2026",
+        time: "8:00 AM – 6:00 PM",
+        accomplishments: [
+          "Completed advanced RegEx exercises by developing tools like a text converter, a word replacer, and a translator.",
+          "Finished the required certification project by building a Markdown to HTML Converter.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "week-6",
+    week: 6,
+    title: "APIs & Async",
+    theme: "Asynchronous JavaScript & Live Data",
+    dateRange: "July 20 – 25, 2026",
+    totalHours: "47 hours",
+    excerpt:
+      "The web got dynamic. This week I learned form validation, then async JavaScript with fetch, Promises, and async/await — and put it all to work building and deploying two API-driven apps: a Fruit Explorer and a Coffee Explorer, each with search, filtering, and responsive card UIs.",
+    tags: ["JavaScript", "fetch API", "async/await", "Form Validation", "GitHub Pages"],
+    highlights: [
+      { label: "Focus", value: "Async JS & APIs" },
+      { label: "Projects", value: "Fruit Explorer · Coffee Explorer · Calorie Counter" },
+      { label: "Progress", value: "55h 42m remaining of 324h" },
+    ],
+    days: [
+      {
+        day: "Monday",
+        date: "July 20, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Worked on form validation concepts in JavaScript, including handling form submission and preventing default behavior.",
+          "Began developing a Calorie Counter application as part of the exercises.",
+        ],
+      },
+      {
+        day: "Tuesday",
+        date: "July 21, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Explored asynchronous JavaScript by practicing API requests using fetch, Promises, and async/await.",
+          "Started building the Fruit Explorer application with a structured layout and API integration.",
+        ],
+      },
+      {
+        day: "Wednesday",
+        date: "July 22, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Finalized the Fruit Explorer project by displaying detailed fruit information such as classification and nutritional values.",
+          "Added a search feature for filtering results and deployed the finished project online.",
+        ],
+      },
+      {
+        day: "Thursday",
+        date: "July 23, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Initiated the Coffee Explorer web application to practice API usage and dynamic data rendering.",
+          "Implemented features to display coffee details along with image handling and responsive design.",
+        ],
+      },
+      {
+        day: "Friday",
+        date: "July 24, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Completed the Coffee Explorer app by adding advanced search and filtering capabilities.",
+          "Improved the user interface with styled cards and deployed the project via GitHub Pages.",
+        ],
+      },
+      {
+        day: "Saturday",
+        date: "July 25, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Finished the Form Validation module by completing all required steps.",
+          "Strengthened understanding of input validation and event handling, and successfully passed the module assessment.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const stats = {
   weeksDocumented: posts.length,
-  totalHours: "141 hours",
-  projectsBuilt: "30+ builds",
+  totalHours: "268 hours",
+  projectsBuilt: "40+ builds",
   requiredHours: 324,
-  hoursRemaining: "132h 54m",
+  hoursRemaining: "55h 42m",
 };

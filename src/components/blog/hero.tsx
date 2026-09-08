@@ -68,7 +68,7 @@ export function Hero() {
           className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-4"
         >
           <Stat label="Weeks logged" value={String(stats.weeksDocumented)} />
-          <Stat label="Hours completed" value={stats.totalHours} />
+          <Stat label="Hours remaining" value={stats.hoursRemaining} />
           <Stat label="Projects built" value={stats.projectsBuilt} />
           <Stat label="Required hours" value={String(stats.requiredHours)} />
         </motion.div>
