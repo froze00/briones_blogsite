@@ -224,9 +224,9 @@ export const posts: JournalPost[] = [
         date: "July 7, 2026",
         time: "8:00 AM – 5:00 PM",
         accomplishments: [
-          "Studied CSS pseudo-classes and pseudo-elements to enhance webpage interactivity and styling.",
-          "Built a Greeting Card, designed a Tourist Traveler Conference Form, and created a Job Application Form.",
-          "Completed the review exercises and passed the CSS Pseudo-Classes Quiz.",
+          "Focused on User Interface Design fundamentals — user-centered design principles, common design tools, and design fundamentals.",
+          "Learned about relative and absolute CSS units and applied the concepts by creating an Event Flyer page.",
+          "Successfully completed the Design Fundamentals and CSS Units reviews and quizzes.",
         ],
       },
       {
@@ -234,9 +234,9 @@ export const posts: JournalPost[] = [
         date: "July 8, 2026",
         time: "8:00 AM – 5:00 PM",
         accomplishments: [
-          "Focused on User Interface Design fundamentals — user-centered design principles, common design tools, and design fundamentals.",
-          "Learned about relative and absolute CSS units and applied the concepts by creating an Event Flyer page.",
-          "Successfully completed the Design Fundamentals and CSS Units reviews and quizzes.",
+          "Studied CSS pseudo-classes and pseudo-elements to enhance webpage interactivity and styling.",
+          "Built a Greeting Card, designed a Tourist Traveler Conference Form, and created a Job Application Form.",
+          "Completed the review exercises and passed the CSS Pseudo-Classes Quiz.",
         ],
       },
       {
@@ -267,6 +267,84 @@ export const posts: JournalPost[] = [
           "Continued studying Responsive Web Design best practices and completed the Responsive Web Design Review and Quiz.",
           "Built a Technical Documentation Page to practice responsive layouts and well-structured documentation sites.",
           "Learned CSS Variables by building a City Skyline project and an Availability Table, reinforcing reusable CSS properties and responsive techniques.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "week-4",
+    week: 4,
+    title: "Responsive by Design",
+    theme: "Closing the CSS Block",
+    dateRange: "July 6 – 11, 2026",
+    totalHours: "47 hours",
+    excerpt:
+      "The week responsive design clicked — pseudo-classes, Flexbox, CSS Grid, animations, and CSS variables, all consolidated and certified. From a City Skyline built with reusable variables to an Animated Ferris Wheel and a Technical Documentation Page, the advanced CSS block closed out with the freeCodeCamp Responsive Web Design certification.",
+    tags: ["Flexbox", "CSS Grid", "Responsive Design", "CSS Variables", "Accessibility"],
+    highlights: [
+      { label: "Focus", value: "Responsive Design Certification" },
+      { label: "Projects", value: "City Skyline · Technical Docs · Ferris Wheel" },
+      { label: "Progress", value: "132h 54m remaining of 324h" },
+    ],
+    days: [
+      {
+        day: "Monday",
+        date: "July 6, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Continued learning advanced CSS styling by working with links, lists, backgrounds, and borders.",
+          "Designed a Styled To-Do List and a Blog Post Card to practice applying these concepts.",
+          "Completed the CSS Backgrounds and Borders Review and successfully passed the corresponding quiz.",
+        ],
+      },
+      {
+        day: "Tuesday",
+        date: "July 7, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Focused on User Interface Design fundamentals, including user-centered design principles, common design tools, and design fundamentals.",
+          "Learned about relative and absolute CSS units and applied the concepts by creating an Event Flyer page.",
+          "Successfully completed the Design Fundamentals and CSS Units reviews and quizzes.",
+        ],
+      },
+      {
+        day: "Wednesday",
+        date: "July 8, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Studied CSS pseudo-classes and pseudo-elements to enhance webpage interactivity and styling.",
+          "Built a Greeting Card, designed a Tourist Traveler Conference Form, and created a Job Application Form to reinforce these concepts.",
+          "Completed the review exercises and passed the CSS Pseudo-Classes Quiz.",
+        ],
+      },
+      {
+        day: "Thursday",
+        date: "July 9, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Continued progressing through freeCodeCamp by studying CSS colors, styling forms, the CSS box model, transforms, overflow, filters, Flexbox, and typography.",
+          "Completed several hands-on projects including Colored Markers, a Registration Form, a Contact Form, a Game Settings Panel, a Feature Selection Page, a Confidential Email Page, a Flexbox Photo Gallery, Pricing Plans Layout, Playing Cards, and a Nutritional Label.",
+          "Successfully finished the corresponding reviews and quizzes.",
+        ],
+      },
+      {
+        day: "Friday",
+        date: "July 10, 2026",
+        time: "9:00 AM – 5:00 PM",
+        accomplishments: [
+          "Continued learning advanced CSS concepts by studying Typography, Accessibility, Positioning, CSS Grid, Debugging CSS, Animation and Accessibility, and Responsive Web Design.",
+          "Completed several hands-on projects including a Newspaper Article, Game Webpage, Cat Painting, House Painting, Magazine, Magazine Layout, Product Landing Page, an Animated Ferris Wheel, and a Moon Orbit.",
+          "Successfully completed the corresponding reviews and quizzes, strengthening practical skills in responsive web design and modern CSS development.",
+        ],
+      },
+      {
+        day: "Saturday",
+        date: "July 11, 2026",
+        time: "9:00 AM – 5:00 PM",
+        accomplishments: [
+          "Continued studying Responsive Web Design by learning its best practices and successfully completed the Responsive Web Design Review and Quiz.",
+          "Built a Technical Documentation Page to practice creating responsive layouts and well-structured documentation websites.",
+          "Continued learning CSS Variables by building a City Skyline project and an Availability Table, reinforcing the use of reusable CSS properties and responsive design techniques.",
         ],
       },
     ],
@@ -415,12 +493,84 @@ export const posts: JournalPost[] = [
       },
     ],
   },
+  {
+    slug: "week-7",
+    week: 7,
+    title: "Backend Begins",
+    theme: "Databases & Backend Foundations",
+    dateRange: "August 3 – 8, 2026",
+    totalHours: "47 hours",
+    excerpt:
+      "The stack grew a back end. This week I containerized MySQL with Docker, built a relational ojt_store database with joins and aggregates, solved ten business-insight SQL queries, then started backend development with Node.js and Express — shipping a server health endpoint and an in-memory Task CRUD API.",
+    tags: ["MySQL", "Docker", "Node.js", "Express", "SQL"],
+    highlights: [
+      { label: "Focus", value: "Databases & Backend" },
+      { label: "Projects", value: "ojt_store DB · 10 SQL queries · Task CRUD API" },
+      { label: "Progress", value: "8h 42m remaining of 324h" },
+    ],
+    days: [
+      {
+        day: "Monday",
+        date: "August 3, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Set up Docker Desktop and launched a local MySQL container via Docker Compose.",
+          "Used the MySQL CLI to run introductory SQL commands, create test tables, and practice basic data insertion.",
+        ],
+      },
+      {
+        day: "Tuesday",
+        date: "August 4, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Connected a front-end CRUD project to the containerized MySQL database server.",
+          "Reviewed the connection code line-by-line to understand client-to-database data flow and researched connection setup best practices.",
+        ],
+      },
+      {
+        day: "Wednesday",
+        date: "August 5, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Kicked off the MySQL Store Database (ojt_store) task by creating relational tables for customers, products, orders, and order items.",
+          "Configured primary/foreign keys, constraints, and populated initial test datasets.",
+        ],
+      },
+      {
+        day: "Thursday",
+        date: "August 6, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Executed CRUD operations, price/stock updates, and multi-table queries.",
+          "Practiced using INNER JOIN and LEFT JOIN to link customer orders, alongside GROUP BY and aggregate functions (SUM, COUNT, AVG) to analyze sales data.",
+        ],
+      },
+      {
+        day: "Friday",
+        date: "August 7, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Solved 10 independent SQL queries focused on business insights like top-spending customers and best-selling items.",
+          "Documented relational concepts in a README.md, captured result screenshots, and submitted the complete batch1_mysql_activity.sql script.",
+        ],
+      },
+      {
+        day: "Saturday",
+        date: "August 8, 2026",
+        time: "8:00 AM – 5:00 PM",
+        accomplishments: [
+          "Started backend development using Node.js, NVM, and Express.",
+          "Built a server health endpoint and constructed an in-memory Task CRUD API to practice routing, status codes, and input validation before database integration.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const stats = {
   weeksDocumented: posts.length,
-  totalHours: "268 hours",
-  projectsBuilt: "40+ builds",
+  totalHours: "315 hours",
+  projectsBuilt: "50+ builds",
   requiredHours: 324,
-  hoursRemaining: "55h 42m",
+  hoursRemaining: "8h 42m",
 };
