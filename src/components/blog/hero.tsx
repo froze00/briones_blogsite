@@ -65,10 +65,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.24 }}
-          className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-4"
+          className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-3"
         >
           <Stat label="Weeks logged" value={String(stats.weeksDocumented)} />
-          <Stat label="Hours remaining" value={stats.hoursRemaining} />
           <Stat label="Projects built" value={stats.projectsBuilt} />
           <Stat label="Required hours" value={String(stats.requiredHours)} />
         </motion.div>
